@@ -37,7 +37,7 @@ export class AppComponent {
       if(keycode === 8){
         var v1  = this.val1?.replace(/[^\d]/g,"")||""
         v1 = v1.substring(0,v1.length);
-        console.log(v1)
+        //console.log(v1)
         this.val1 = this.format(v1)
         e.preventDefault();
       }
